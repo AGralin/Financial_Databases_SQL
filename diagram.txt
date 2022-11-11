@@ -1,0 +1,28 @@
+card_holders
+-
+cardholder_id PK
+name
+
+credit_card
+-
+card PK
+cardholder_id FK >- card_holders.cardholder_id
+
+merchant_category
+-
+merchant_type_id PK
+merchant_type
+
+merchant
+-
+merchant_id PK
+merchant_name
+merchant_type_id FK >- merchant_category.merchant_type_id
+
+transaction
+-
+transaction_id PK
+date
+amount
+card FK >- credit_card.card
+merchant_id FK >- merchant.merchant_id
