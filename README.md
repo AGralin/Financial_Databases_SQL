@@ -18,19 +18,19 @@
 **PART 2:**
 
 - Cardholder 2:
-![2](2.png)
+![2](Images/2.png)
 ---
 - Cardholder 18:
-![18](18.png)
+![18](Images/18.png)
 ---
 - Combined:
-![2,18](2,18.png)
+![2,18](Images/2,18.png)
 ---
 - The consumption pattern for cardholder 2 looks quite normal. The consumption pattern for cardholder 18 shows signs that the account could be hacked. This is because there were 7 transactions over 1000 dollars. As you can see in the combined graph, these transactions were a lot larger than the average for both cardholders.
 ---
 - Question 2:
 
-- ![25](25.png)
+- ![25](Images/25.png)
 
 - There are 7 outliers for cardholder 25. One in January, March, April, May, and three in June.
 - These outliers are most likely the fraudulent transactions.
