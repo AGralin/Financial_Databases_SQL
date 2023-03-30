@@ -1,4 +1,3 @@
-- Used SQL to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
 
 **PART 1:**
 - There is some evidence to suggest that a credit card has been hacked. The card holder with the most transactions under 2 dollars is 8. There are many other cards with 7 and 6 transactions (under $2), so some of these cards could be hacked.
